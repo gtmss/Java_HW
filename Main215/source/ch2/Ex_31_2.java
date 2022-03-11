@@ -1,3 +1,5 @@
+package ch2;
+
 import static java.lang.Math.pow;
 
 public class Ex_31_2 {

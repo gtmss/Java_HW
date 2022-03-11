@@ -1,3 +1,5 @@
+package ch2;
+
 import java.util.Scanner;
 
 public class Ex_15_2 {
