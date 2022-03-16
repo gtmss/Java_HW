@@ -11,9 +11,9 @@ public class Ex_33_2 {
 
         System.out.println("Introduce your parameters");
         System.out.println("Weight in Kilograms: ");
-        weightInKilograms = (float) Input.nextDouble();
+        weightInKilograms = Input.nextDouble();
         System.out.println("Height in Meters: ");
-        heightInMeters = (float) Input.nextDouble();
+        heightInMeters = Input.nextDouble();
         double BMI = weightInKilograms / (heightInMeters * heightInMeters);
 
         System.out.println("BMI VALUES");
