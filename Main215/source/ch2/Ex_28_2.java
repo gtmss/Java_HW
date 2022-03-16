@@ -11,13 +11,14 @@ public class Ex_28_2 {
         Scanner Input = new Scanner(System.in);
 
         int radius = Input.nextInt();
+        /*
         double diameter = 2 * radius;
         double circumference = 2 * PI * radius;
-        double area = PI * pow(radius, 2);
+        double area = PI * pow(radius, 2); */
 
         System.out.printf("Radius: %d\n", radius);
-        System.out.printf("Diameter: %f\n", diameter);
-        System.out.printf("Cricumference: %f\n", circumference);
-        System.out.printf("Area: %f\n", area);
+        System.out.printf("Diameter: %d\n", 2 * radius);
+        System.out.printf("Cricumference: %f\n", 2 * PI * radius);
+        System.out.printf("Area: %f\n", PI * pow(radius, 2));
     }
 }
