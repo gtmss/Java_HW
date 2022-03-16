@@ -22,7 +22,7 @@ public class Ex_30_2 {
             int digit5 = num;
 
             System.out.printf("%d %d %d %d %d", digit1, digit2, digit3, digit4, digit5);
-        } else System.out.println("Incorect format of number.\nPlaease,introduce 5 digit number.");
+        } else System.out.println("Incorect format of number.\nPlaease,introduce  5 digit number.");
 
     }
 }
