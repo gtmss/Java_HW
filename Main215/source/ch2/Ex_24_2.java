@@ -6,11 +6,11 @@ public class Ex_24_2 {
     public static void main(String[] args) {
         Scanner Input = new Scanner(System.in);
 
-        int num1 = 0;
-        int num2 = 0;
-        int num3 = 0;
-        int num4 = 0;
-        int num5 = 0;
+        int num1;
+        int num2;
+        int num3;
+        int num4;
+        int num5;
 
         System.out.println("Introduce num1: ");
         num1 = Input.nextInt();

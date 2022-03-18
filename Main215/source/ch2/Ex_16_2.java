@@ -6,8 +6,8 @@ public class Ex_16_2 {
     public static void main(String[] args) {
         Scanner Input = new Scanner(System.in);
 
-        int num1 = 0;
-        int num2 = 0;
+        int num1;
+        int num2;
 
         System.out.println("Introduce num1: ");
         num1 = Input.nextInt();
