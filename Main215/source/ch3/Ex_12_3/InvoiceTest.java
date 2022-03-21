@@ -9,7 +9,6 @@ public class InvoiceTest {
                 "___________________________");
 
         System.out.printf("AtodoctorSRL\n");
-        System.out.printf("");
         System.out.printf("Invoice:%f\n",Invoice_AutodoctorSRL.getInvoiceAmount());
         System.out.printf("Part number - %s\n",Invoice_AutodoctorSRL.getPartNumber());
         System.out.printf("Price - %f\n",Invoice_AutodoctorSRL.getPriceItem());
