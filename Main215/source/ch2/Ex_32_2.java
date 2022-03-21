@@ -13,9 +13,9 @@ public class Ex_32_2 {
         int num4 = Input.nextInt();
         int num5 = Input.nextInt();
 
-        int negativ;
-        int positiv;
-        int zero;
+        int negativ = 0;
+        int positiv = 0;
+        int zero = 0;
 
         if (num1 > 0) {
             positiv++;
