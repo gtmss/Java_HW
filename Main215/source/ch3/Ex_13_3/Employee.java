@@ -1,4 +1,4 @@
-package ch3.ex_13_3;
+package ch3.Ex_13_3;
 
 public class Employee {
     private String FirstName;
