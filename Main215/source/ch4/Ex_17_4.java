@@ -2,7 +2,7 @@ package ch4;
 
 import java.util.Scanner;
 
-public class Ex_14_4 {
+public class Ex_17_4 {
 
     public static void main(String[] args) {
         Scanner Input = new Scanner(System.in);
