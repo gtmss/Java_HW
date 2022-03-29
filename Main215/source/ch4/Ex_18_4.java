@@ -15,7 +15,7 @@ public class Ex_18_4 {
 
         Scanner Input = new Scanner(System.in);
 
-        System.out.println("Fo you want to infroduce some noew data about your account ?\n" +
+        System.out.println("Do you want to infroduce some noew data about your account ?\n" +
                 "press y - YES or n - NO");
         check = Input.next();
 

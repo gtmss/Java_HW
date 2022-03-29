@@ -14,7 +14,7 @@ public class Ex_17_4 {
         int tripCounter = 0;
         String check;
 
-        System.out.println("Fo you want to infroduce some noew data about your trips ?\n" +
+        System.out.println("Do you want to infroduce some noew data about your trips ?\n" +
                 "press y - YES or n - NO");
         check = Input.next();
 
