@@ -32,30 +32,20 @@ public class Ex_17_5 {
 
             int quantity;
             while (true){
+                System.out.println("Enter the quantity");
                 quantity = Input.nextInt();
-                System.out.println("Enter quantity");
                 if (quantity > 0){
                     break;
                 } else System.out.println("Quantity can't be negative");
             }
 
 
-            switch (code){
-                case 1:
-                    product1 = product1 + 2.98 * quantity;
-                    break;
-                case 2:
-                    product2 = product2 + 4.50 * quantity;
-                    break;
-                case 3:
-                    product3 = product3 + 9.98 * quantity;
-                    break;
-                case 4:
-                    product4 = product4 + 4.49 * quantity;
-                    break;
-                case 5:
-                    product5 = product5 + 6.87 * quantity;
-                    break;
+            switch (code) {
+                case 1 -> product1 = product1 + 2.98 * quantity;
+                case 2 -> product2 = product2 + 4.50 * quantity;
+                case 3 -> product3 = product3 + 9.98 * quantity;
+                case 4 -> product4 = product4 + 4.49 * quantity;
+                case 5 -> product5 = product5 + 6.87 * quantity;
             }
 
             System.out.println("Do you want to add some new data ? press yES or nO");
