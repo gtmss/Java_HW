@@ -27,7 +27,6 @@ public class Ex_14_7 {
         for (int i: nums ){
             total *= i;
         }
-
         System.out.println("Product = " +total);
     }
 }
